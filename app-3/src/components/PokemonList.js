@@ -15,7 +15,7 @@ const PokemonList = (props) => {
         <div>
             {list.map((pokemon) => {
                 return (
-                    <Link key={pokemon.url} to={`/pokemon/${pokemon.nam}`}>
+                    <Link key={pokemon.url} to={`/pokemon/${pokemon.name}`}>
                         <h2>{pokemon.name}</h2>
                     </Link>
                 )
